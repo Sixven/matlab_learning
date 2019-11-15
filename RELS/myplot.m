@@ -4,7 +4,7 @@ plot(1:N, repmat(A(2:end), N, 1), '--')
 hold on
 grid on
 plot(1:N,theta_a)
-xlabel('迭代次数k'), ylabel('A(k)')
+xlabel('杩唬娆℃暟k'), ylabel('A(k)')
 xlim([0,150])
 
 figure
@@ -12,7 +12,7 @@ plot(1:N, repmat(B, N, 1), '--')
 hold on
 grid on
 plot(1:N, theta_b)
-xlabel('迭代次数k'), ylabel('B(k)')
+xlabel('杩唬娆℃暟k'), ylabel('B(k)')
 xlim([0,150])
 
 if length(C)>1
@@ -21,7 +21,7 @@ if length(C)>1
     hold on
     grid on
     plot(1:N, theta_c)
-    xlabel('迭代次数k'), ylabel('C(k)')
+    xlabel('杩唬娆℃暟k'), ylabel('C(k)')
     xlim([0,150])
 end
 end
